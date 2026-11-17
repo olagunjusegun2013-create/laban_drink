@@ -1,0 +1,45 @@
+export interface NigerianStateInfo {
+  name: string;
+  region: 'North Central' | 'North East' | 'North West' | 'South East' | 'South South' | 'South West';
+  capital: string;
+}
+
+export const NIGERIAN_STATES: NigerianStateInfo[] = [
+  { name: 'Abia', region: 'South East', capital: 'Umuahia' },
+  { name: 'Adamawa', region: 'North East', capital: 'Yola' },
+  { name: 'Akwa Ibom', region: 'South South', capital: 'Uyo' },
+  { name: 'Anambra', region: 'South East', capital: 'Awka' },
+  { name: 'Bauchi', region: 'North East', capital: 'Bauchi' },
+  { name: 'Bayelsa', region: 'South South', capital: 'Yenagoa' },
+  { name: 'Benue', region: 'North Central', capital: 'Makurdi' },
+  { name: 'Borno', region: 'North East', capital: 'Maiduguri' },
+  { name: 'Cross River', region: 'South South', capital: 'Calabar' },
+  { name: 'Delta', region: 'South South', capital: 'Asaba' },
+  { name: 'Ebonyi', region: 'South East', capital: 'Abakaliki' },
+  { name: 'Edo', region: 'South South', capital: 'Benin City' },
+  { name: 'Ekiti', region: 'South West', capital: 'Ado-Ekiti' },
+  { name: 'Enugu', region: 'South East', capital: 'Enugu' },
+  { name: 'FCT (Abuja)', region: 'North Central', capital: 'Abuja' },
+  { name: 'Gombe', region: 'North East', capital: 'Gombe' },
+  { name: 'Imo', region: 'South East', capital: 'Owerri' },
+  { name: 'Jigawa', region: 'North West', capital: 'Dutse' },
+  { name: 'Kaduna', region: 'North West', capital: 'Kaduna' },
+  { name: 'Kano', region: 'North West', capital: 'Kano' },
+  { name: 'Katsina', region: 'North West', capital: 'Katsina' },
+  { name: 'Kebbi', region: 'North West', capital: 'Birnin Kebbi' },
+  { name: 'Kogi', region: 'North Central', capital: 'Lokoja' },
+  { name: 'Kwara', region: 'North Central', capital: 'Ilorin' },
+  { name: 'Lagos', region: 'South West', capital: 'Ikeja' },
+  { name: 'Nasarawa', region: 'North Central', capital: 'Lafia' },
+  { name: 'Niger', region: 'North Central', capital: 'Minna' },
+  { name: 'Ogun', region: 'South West', capital: 'Abeokuta' },
+  { name: 'Ondo', region: 'South West', capital: 'Akure' },
+  { name: 'Osun', region: 'South West', capital: 'Osogbo' },
+  { name: 'Oyo', region: 'South West', capital: 'Ibadan' },
+  { name: 'Plateau', region: 'North Central', capital: 'Jos' },
+  { name: 'Rivers', region: 'South South', capital: 'Port Harcourt' },
+  { name: 'Sokoto', region: 'North West', capital: 'Sokoto' },
+  { name: 'Taraba', region: 'North East', capital: 'Jalingo' },
+  { name: 'Yobe', region: 'North East', capital: 'Damaturu' },
+  { name: 'Zamfara', region: 'North West', capital: 'Gusau' },
+];

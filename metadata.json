@@ -1,0 +1,6 @@
+{
+  "name": "LABAN DRINK",
+  "description": "Official beverage brand website, product showcase, distributor recruitment portal, and nationwide Nigeria depot directory for LABAN DRINK.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
